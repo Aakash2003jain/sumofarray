@@ -2,7 +2,7 @@
 #include <chrono>
 #include "taskflow/taskflow.hpp"
 
-const int ARRAY_SIZE = 1000000;
+const int ARRAY_SIZE = 1000000000;
 
 // Define the function to be executed in parallel
 void add_arrays(int* a, int* b, int* c, int start, int end) {
